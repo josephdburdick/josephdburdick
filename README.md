@@ -6,7 +6,7 @@ A web guy with a keen eye on what's fly.
 My diverse experience spans 2 decades and covers a range of sectors, including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a profound understanding of various client needs and a knack for adapting to evolving technologies and design trends.
 
 * 🌍  I'm from mostly the east coast and currently based in Brooklyn, NYC
-* ✉️  You can contact me at [josephdburdick@gmail.com](mailto:josephdburdick@gmail.com)
+* ✉️  You can contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
 * 🚀  I'm currently working on [Unqork, a no-code application development platform](http://unqork.com)
 * 👷‍♂️  I'm experimenting on the side with [Present Day](http://presentday.io)
 
