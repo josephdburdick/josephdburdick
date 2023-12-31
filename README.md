@@ -5,10 +5,10 @@ A web guy with a keen eye on what's fly.
 
 My diverse experience spans 2 decades and covers a range of sectors, including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a profound understanding of various client needs and a knack for adapting to evolving technologies and design trends.
 
-* 🌍  I'm from mostly the east coast and currently based in Brooklyn, NYC
-* ✉️  You can contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
-* 🚀  I'm currently working on [Unqork, a no-code application development platform](http://unqork.com)
-* 👷‍♂️  I'm experimenting on the side with [Present Day](http://presentday.io)
+* 🌍  Mostly the east coast and currently based in Brooklyn, NYC
+* ✉️  Contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
+* 🚀  Working at [Unqork](http://unqork.com), a no-code application development platform
+* 👷‍♂️  Experimenting on projects with [Present Day](http://presentday.io)
 
 <a href="https://www.github.com/josephdburdick" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/josephdburdick?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
@@ -31,12 +31,8 @@ src="https://img.shields.io/github/followers/josephdburdick?logo=github&style=fo
 
 <a href="http://www.github.com/josephdburdick"><img src="https://github-readme-stats.vercel.app/api?username=josephdburdick&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="josephdburdick's GitHub stats" /></a>
 
-<a href="http://www.github.com/josephdburdick"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=josephdburdick&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
-
 <a href="https://github.com/josephdburdick" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=josephdburdick&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 <!--
-**josephdburdick/josephdburdick** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
