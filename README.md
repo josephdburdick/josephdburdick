@@ -1,9 +1,9 @@
-Hi! 👋 My name is Joe
+Sup, I'm Joe 🤘
 ===========================================================================================================================
 
-A web guy with a keen eye on what's fly.
+I'm a web guy with a keen eye on what's fly.
 
-My diverse experience spans 2 decades and covers a range of sectors, including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a profound understanding of various client needs and a knack for adapting to evolving technologies and design trends.
+My multi-decade experience covers a range of sectors, including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a solid understanding of various client needs and a knack for adapting to evolving technologies and design trends.
 
 * 🌍  Mostly the east coast and currently based in Brooklyn, NYC
 * ✉️  Contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
