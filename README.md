@@ -5,7 +5,7 @@ My multi-decade experience covers a range of sectors, including retail, healthca
 
 * 🌍  Mostly the east coast and currently based in Brooklyn, NYC
 * ✉️  Contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
-<!-- * 🚀  Working at [Exponential](http://exponential.fi), simplifying DeFi investing for everyone -->
+* 🚀  Working at [Exponential](http://exponential.fi), simplifying DeFi investing for everyone
 * 👷‍♂️  Experimenting on projects with [Present Day](http://presentday.io)
 
 <a href="https://www.github.com/josephdburdick" target="_blank" rel="noreferrer"><img
