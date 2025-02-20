@@ -1,7 +1,7 @@
 Hiya, I'm Joe 🤘
 ===========================================================================================================================
 
-My multi-decade experience covers a range of sectors, including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a solid understanding of various client needs and a knack for adapting to evolving technologies and design trends.
+My multi-decade experience covers a range of sectors including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a solid understanding of various client needs and a knack for adapting to evolving technologies and design trends.
 
 * 🌍  Mostly the east coast and currently based in Brooklyn, NYC
 * ✉️  Contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
