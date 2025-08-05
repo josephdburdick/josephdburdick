@@ -4,7 +4,6 @@ Hiya, I'm Joe 🤘
 My multi-decade experience covers a range of sectors including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a solid understanding of various client needs and a knack for adapting to evolving technologies and design trends.
 
 * 🌍  Mostly the east coast and currently reside in Brooklyn, NYC
-* 🚀  Working at [Exponential.fi](https://exponential.fi), simplifying investments in decentralized finance
 * 👷‍♂️  Experimenting on projects with [Present Day](https://presentday.io)
 * 👀  View my personal site, [j0e.me](https://j0e.me)
 * ✉️  Contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
