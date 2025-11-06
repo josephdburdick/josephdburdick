@@ -1,4 +1,4 @@
-currentlyly'm Joe 🤘
+Heya, I'm Joe 👋🏻
 ===========================================================================================================================
 
 My multi-decade experience covers a range of sectors including retail, healthcare, and media, where I've consistently delivered innovative and user-centric digital solutions. My technical expertise is complemented by a solid understanding of various client needs and a knack for adapting to evolving technologies and design trends.
