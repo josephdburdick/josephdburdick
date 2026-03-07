@@ -5,6 +5,7 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 
 * 🗽 Currently reside in Brooklyn, NYC
 * 🎱  Building a social crowdsourced billiards app, [Cue Quest](https://cue.quest)
+* 🏢 Applying AI to workforce management at [Assembled](https://assembled.com)
 * 👷‍♂️  Experimenting with [Present Day](https://presentday.io)
 * 👀  View my personal site, [j0e.me](https://j0e.me)
 * ✉️  Contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
