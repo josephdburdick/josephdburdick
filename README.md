@@ -8,7 +8,6 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 * 🏢 Applying AI to workforce management at [Assembled](https://assembled.com)
 * 👷‍♂️  Experimenting with [Present Day](https://presentday.io)
 * 👀  View my personal site, [j0e.me](https://j0e.me)
-* ✉️  Contact me at [josephdburdick@proton.me](mailto:josephdburdick@proton.me)
 
 <a href="https://www.github.com/josephdburdick" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/josephdburdick?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
