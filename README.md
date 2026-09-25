@@ -1,7 +1,7 @@
 👋🏻 Heya, I'm Joe
 ===========================================================================================================================
 
-<img width="100%" height="auto" alt="Dome piece" src="https://github.com/user-attachments/assets/693a03d2-8d56-44eb-aeb7-30d3657162c9" />
+<img width="65%" height="auto" alt="Dome piece" src="https://github.com/user-attachments/assets/693a03d2-8d56-44eb-aeb7-30d3657162c9" />
 
 <!-- <img width="3770" height="auto" alt="ascii-art" src="https://github.com/user-attachments/assets/bdf1811d-1c82-48d8-8746-af24e7fd60ad" /> -->
 <!-- <img width="400" height="auto" alt="ezgif com-crop (1)" src="https://github.com/user-attachments/assets/a1bde8c6-b8fa-4e15-884f-b9d1d5796b97" /> -->
