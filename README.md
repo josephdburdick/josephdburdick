@@ -13,7 +13,7 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 
 * 🗽 Currently residing in NYC
 * 🎱  Building a social crowdsourced billiards app, [Cue Quest](https://cue.quest)
-* 👷‍♂️  Experimenting with [Present Day](https://presentday.io)
+* 👷‍♂️  Experimenting with [Present Day](https://present.day)
 * 👀  View my personal site, [j0e.me](https://j0e.me)
 
 <a href="https://www.github.com/josephdburdick" target="_blank" rel="noreferrer"><img
