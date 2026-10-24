@@ -1,0 +1,73 @@
+{
+  "products": [
+    {
+      "name": "Cue Quest",
+      "emoji": "🎱",
+      "url": "https://cue.quest",
+      "repos": [
+        "present-day/app.cue.quest",
+        "present-day/cue.quest"
+      ]
+    },
+    {
+      "name": "Cue Quest Shot Clock",
+      "emoji": "⏱️",
+      "url": "https://shotclock.cue.quest",
+      "repos": [
+        "present-day/shotclock.cue.quest"
+      ]
+    },
+    {
+      "name": "pooltabl.es",
+      "emoji": "🗺️",
+      "url": "https://pooltabl.es",
+      "repos": [
+        "present-day/pooltabl.es"
+      ]
+    },
+    {
+      "name": "Present Day",
+      "emoji": "👷‍♂️",
+      "url": "https://present.day",
+      "repos": [
+        "present-day/presentday"
+      ]
+    },
+    {
+      "name": "Open-source React packages",
+      "emoji": "📦",
+      "url": "https://www.npmjs.com/org/present-day",
+      "repos": [
+        "present-day/drawer",
+        "present-day/reveal-row",
+        "present-day/scroll-area",
+        "present-day/buzz",
+        "present-day/carousel"
+      ]
+    },
+    {
+      "name": "OffsetKey-70 keyboard firmware",
+      "emoji": "⌨️",
+      "url": "https://github.com/josephdburdick/offsetkey-zmk-config",
+      "repos": [
+        "josephdburdick/offsetkey-zmk-config",
+        "josephdburdick/zmk-dongle-display"
+      ]
+    },
+    {
+      "name": "j0e.me",
+      "emoji": "👀",
+      "url": "https://j0e.me",
+      "repos": [
+        "josephdburdick/j0e"
+      ]
+    }
+  ],
+  "packages": [
+    "@present-day/drawer",
+    "@present-day/reveal-row",
+    "@present-day/buzz",
+    "@present-day/scroll-area"
+  ],
+  "bluesky": "j0e.me"
+}

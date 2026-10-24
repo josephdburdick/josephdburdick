@@ -1,0 +1,91 @@
+name: Lately
+
+# Every Monday: gather what I shipped last week, have the writer step draft a few
+# bullets from it, render the README's "Lately" section and open a PR.
+# See lately/.
+
+on:
+  schedule:
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: lately
+  cancel-in-progress: false
+
+jobs:
+  lately:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Test the renderer
+        run: bun test lately
+
+      # Prints counts only: this repo, and so this log, is public.
+      - name: Gather the week
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          LATELY_ORG_TOKEN: ${{ secrets.LATELY_ORG_TOKEN }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USER: ${{ vars.LASTFM_USER }}
+        run: bun lately/gather.ts
+
+      - name: Write the bullets
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Follow the instructions in lately/prompt.md exactly.
+          claude_args: >-
+            --model sonnet
+            --max-turns 8
+            --allowedTools "Read,Write"
+
+      # The writer step can write files, and it has read private PR titles.
+      # Its one output is lately/out/bullets.md (gitignored); anything else
+      # it changed would ride along into the PR unchecked, so stop here.
+      - name: Check the writer touched nothing else
+        run: |
+          changed="$(git status --porcelain | grep -v ' assets/activity.svg$' || true)"
+          if [ -n "$changed" ]; then
+            echo "The writer step changed files outside lately/out/:"
+            echo "$changed" | awk '{print $2}'
+            exit 1
+          fi
+
+      - name: Render and check
+        env:
+          LATELY_NEVER_MENTION: ${{ secrets.LATELY_NEVER_MENTION }}
+        run: bun lately/render.ts
+
+      - name: Open a PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          if git diff --quiet -- README.md assets/activity.svg && [ -z "$(git ls-files --others --exclude-standard assets)" ]; then
+            echo "Nothing changed"
+            exit 0
+          fi
+          week="$(date -u +%F)"
+          branch="lately/$week"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add README.md assets/activity.svg
+          git commit -m "lately: week of $week"
+          git push --force origin "$branch"
+          gh pr view "$branch" >/dev/null 2>&1 || gh pr create \
+            --title "Lately: week of $week" \
+            --body "This week's README update. Read the bullets before merging: they were written from private PR titles and checked against lately/config.json, but you are the last check."
