@@ -17,20 +17,21 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 * 👀  View my personal site, [j0e.me](https://j0e.me)
 
 <!-- LATELY:START -->
-### 🛠️ Lately <sub>week of Oct 17</sub>
+### 🛠️ Lately <sub>week of Oct 23</sub>
 
-- 🎱 **[Cue Quest](https://cue.quest)**: place cards now grow into the full place on tap, and you can edit or delete your comments in place
-- ⏱️ **[Cue Quest Shot Clock](https://shotclock.cue.quest)**: a countdown ring around the clock, a new icon and a "How this works" tour
-- 🗺️ **[pooltabl.es](https://pooltabl.es)**: new pool table repair, moving and assembly guides for Boston, Phoenix, Philadelphia and Atlanta
+- 🎱 **[Cue Quest](https://cue.quest)**: buttons now react the moment you press them, and offline use holds up better
+- 🎱 **[Cue Quest](https://cue.quest)**: share cards now draw Vietnamese, Cyrillic, CJK and other scripts
+- 🎱 **[Cue Quest](https://cue.quest)**: shared feed items now open for signed-out readers, and profiles show your stats
+- 🗺️ **[pooltabl.es](https://pooltabl.es)**: new local guides for pool table repair, assembly and moving
 
 <p><img src="assets/activity.svg" alt="Merged pull requests per week across my projects, last 12 weeks" /><br /><sub>Merged pull requests per week, last 12 weeks</sub></p>
 
-**📦 On npm:** [`drawer`](https://www.npmjs.com/package/@present-day/drawer) 2.4.0 · 155/wk &nbsp;·&nbsp; [`buzz`](https://www.npmjs.com/package/@present-day/buzz) 0.1.1 · 119/wk &nbsp;·&nbsp; [`reveal-row`](https://www.npmjs.com/package/@present-day/reveal-row) 0.4.0 · 87/wk &nbsp;·&nbsp; [`scroll-area`](https://www.npmjs.com/package/@present-day/scroll-area) 0.1.1 · 3/wk
+**📦 On npm:** [`drawer`](https://www.npmjs.com/package/@present-day/drawer) 2.4.0 · 72/wk &nbsp;·&nbsp; [`reveal-row`](https://www.npmjs.com/package/@present-day/reveal-row) 0.4.0 · 63/wk &nbsp;·&nbsp; [`buzz`](https://www.npmjs.com/package/@present-day/buzz) 0.1.1 · 52/wk &nbsp;·&nbsp; [`scroll-area`](https://www.npmjs.com/package/@present-day/scroll-area) 0.1.1 · 5/wk
 
-**🦋 Latest post** <sub>[Oct 24](https://bsky.app/profile/j0e.me/post/3mymsfwlbnc2o)</sub>
-> Since AI has access to every sci-fi story ever made, is humanity's fate predetermined?
+**🦋 Latest post** <sub>[Oct 27](https://bsky.app/profile/j0e.me/post/3mytaqmvurc2x)</sub>
+> Negotiation with myself that another software project won't cost much time, money, and effort is a consistent battle.
 
-**🎧 [On repeat](https://www.last.fm/user/josephdburdick):** [Feel Your Melody](https://www.last.fm/music/Neuron/_/Feel+Your+Melody) by Neuron · this week: [Cacola](https://www.last.fm/music/Cacola), [Distinkt](https://www.last.fm/music/Distinkt), [Drumcorps](https://www.last.fm/music/Drumcorps)
+**🎧 [On repeat](https://www.last.fm/user/josephdburdick):** [Macadam Therapy](https://www.last.fm/music/Dauwd/_/Macadam+Therapy) by Dauwd · this week: [Miracle Tones](https://www.last.fm/music/Miracle+Tones), [FaltyDL](https://www.last.fm/music/FaltyDL), [John Tejada](https://www.last.fm/music/John+Tejada)
 
 <sub>Updated weekly by a GitHub Actions automation.</sub>
 <!-- LATELY:END -->
