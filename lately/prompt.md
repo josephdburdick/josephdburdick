@@ -6,8 +6,9 @@ product, plus package, Bluesky and listening data. Read it, then write
 
 ## What to write
 
-3 to 5 Markdown bullets, one line each, about the **products** in
-`facts.products`. Each bullet:
+One Markdown bullet per product in `facts.products` that shipped something
+user-facing, one line each, at most 5. Never give a product two bullets: fold
+everything it shipped into its one line. Each bullet:
 
 - Starts with `- `, then the product's `emoji`, then the product name in bold,
   linked to its `url`, then a colon and a lowercase phrase:
@@ -15,7 +16,8 @@ product, plus package, Bluesky and listening data. Read it, then write
 - Says what changed for the people who use it, in plain words, under about
   110 characters after the link. "Now remembers your favorite tables", not
   "Refactored the favorites store".
-- Combines several merged PRs into one theme. Never list PR titles.
+- Combines all of that product's merged PRs into one line, picking the two
+  or three changes users would notice most. Never list PR titles.
 
 Lead with the product that had the most meaningful user-facing change, not the
 most PRs. Skip chores: dependency bumps, CI, lint, test-only, refactors and

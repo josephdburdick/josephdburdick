@@ -48,6 +48,11 @@ describe('checkBullets', () => {
     expect(problems).toContain('deny rule')
   })
 
+  it('rejects two bullets for the same product', () => {
+    const twice = [good.split('\n')[0], '- 🎱 **[Cue Quest](https://cue.quest)**: share cards in more scripts'].join('\n')
+    expect(checkBullets(twice, deny)).toEqual(['line 2: same product as line 1'])
+  })
+
   it('rejects an empty or overlong list', () => {
     expect(checkBullets('', deny).length).toBeGreaterThan(0)
     expect(checkBullets(Array(6).fill(good.split('\n')[0]).join('\n'), deny).length).toBeGreaterThan(0)

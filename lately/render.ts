@@ -62,6 +62,7 @@ export function checkBullets(text: string, deny: DenyList): string[] {
   const lines = text.split('\n').map((l) => l.trim()).filter(Boolean)
   if (lines.length < 1 || lines.length > 5) problems.push(`expected 1–5 bullets, got ${lines.length}`)
   const allowedUrls = new Set(config.products.map((p) => p.url))
+  const seenProducts = new Map<string, number>()
   const rules = [
     ...[...PUBLIC_DENY.i, ...deny.i].map((source) => new RegExp(source, 'i')),
     ...[...PUBLIC_DENY.cs, ...deny.cs].map((source) => new RegExp(source)),
@@ -77,6 +78,14 @@ export function checkBullets(text: string, deny: DenyList): string[] {
     if (line.includes('<')) problems.push(`${n}: contains HTML`)
     for (const [, url] of line.matchAll(/\]\(([^)]+)\)/g)) {
       if (!allowedUrls.has(url)) problems.push(`${n}: link outside the product URLs`)
+    }
+    // One bullet per product: a second one for the same product reads as a
+    // changelog, not a summary.
+    const product = line.match(/\]\(([^)]+)\)/)?.[1]
+    if (product && allowedUrls.has(product)) {
+      const first = seenProducts.get(product)
+      if (first !== undefined) problems.push(`${n}: same product as line ${first}`)
+      else seenProducts.set(product, index + 1)
     }
     // GitHub autolinks bare URLs, so every URL in the line counts, not only
     // Markdown link targets.

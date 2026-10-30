@@ -19,9 +19,7 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 <!-- LATELY:START -->
 ### 🛠️ Lately <sub>week of Oct 23</sub>
 
-- 🎱 **[Cue Quest](https://cue.quest)**: buttons now react the moment you press them, and offline use holds up better
-- 🎱 **[Cue Quest](https://cue.quest)**: share cards now draw Vietnamese, Cyrillic, CJK and other scripts
-- 🎱 **[Cue Quest](https://cue.quest)**: shared feed items now open for signed-out readers, and profiles show your stats
+- 🎱 **[Cue Quest](https://cue.quest)**: buttons react the moment you press them, share cards draw CJK and other scripts, and shared posts open signed-out
 - 🗺️ **[pooltabl.es](https://pooltabl.es)**: new local guides for pool table repair, assembly and moving
 
 <p><img src="assets/activity.svg" alt="Merged pull requests per week across my projects, last 12 weeks" /><br /><sub>Merged pull requests per week, last 12 weeks</sub></p>
