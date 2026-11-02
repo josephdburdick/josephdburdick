@@ -19,7 +19,8 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 <!-- LATELY:START -->
 ### 🛠️ Lately <sub>week of Oct 26</sub>
 
-- 🎱 **[Cue Quest](https://cue.quest)**: pool passport gets photo stamps and more milestones, plus who-can-play info on places
+- 🎱 **[Cue Quest](https://cue.quest)**: pool passport with photo stamps and more milestones, plus admission info on places
+- ⏲️ **[Cue Quest Shot Clock](https://cue.quest/shotclock)**: version 1.0.0 for the app is accepted into Apple's app store for the first time
 - 🗺️ **[pooltabl.es](https://pooltabl.es)**: new local guides for pool table repair, moving, assembly and maintenance
 
 <p><img src="assets/activity.svg" alt="Merged pull requests per week across my projects, last 12 weeks" /><br /><sub>Merged pull requests per week, last 12 weeks</sub></p>
