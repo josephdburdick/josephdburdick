@@ -17,20 +17,21 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 * 👀  View my personal site, [j0e.me](https://j0e.me)
 
 <!-- LATELY:START -->
-### 🛠️ Lately <sub>week of Oct 26</sub>
+### 🛠️ Lately <sub>week of Nov 2</sub>
 
-- 🎱 **[Cue Quest](https://cue.quest)**: pool passport with photo stamps and more milestones, plus admission info on places
-- ⏲️ **[Cue Quest Shot Clock](https://cue.quest/shotclock)**: version 1.0.0 for the app is accepted into Apple's app store for the first time
-- 🗺️ **[pooltabl.es](https://pooltabl.es)**: new local guides for pool table repair, moving, assembly and maintenance
+- 🎱 **[Cue Quest](https://cue.quest)**: weekly digest now recaps players you follow, plus richer profiles and a simpler Cue up drawer
+- ⏱️ **[Cue Quest Shot Clock](https://shotclock.cue.quest)**: one-screen remote, a try-it-now web demo, and better link previews
+- 🗺️ **[pooltabl.es](https://pooltabl.es)**: city guides now listed on the blog
+- 👀 **[j0e.me](https://j0e.me)**: drawer links now open properly on iPhone
 
 <p><img src="assets/activity.svg" alt="Merged pull requests per week across my projects, last 12 weeks" /><br /><sub>Merged pull requests per week, last 12 weeks</sub></p>
 
-**📦 On npm:** [`drawer`](https://www.npmjs.com/package/@present-day/drawer) 2.4.0 · 55/wk &nbsp;·&nbsp; [`reveal-row`](https://www.npmjs.com/package/@present-day/reveal-row) 0.4.0 · 45/wk &nbsp;·&nbsp; [`buzz`](https://www.npmjs.com/package/@present-day/buzz) 0.1.1 · 33/wk &nbsp;·&nbsp; [`scroll-area`](https://www.npmjs.com/package/@present-day/scroll-area) 0.1.1 · 7/wk
+**📦 On npm:** [`reveal-row`](https://www.npmjs.com/package/@present-day/reveal-row) 0.4.0 · 109/wk &nbsp;·&nbsp; [`drawer`](https://www.npmjs.com/package/@present-day/drawer) 2.4.0 · 103/wk &nbsp;·&nbsp; [`buzz`](https://www.npmjs.com/package/@present-day/buzz) 0.1.1 · 101/wk &nbsp;·&nbsp; [`scroll-area`](https://www.npmjs.com/package/@present-day/scroll-area) 0.1.1 · 5/wk
 
 **🦋 Latest post** <sub>[Oct 27](https://bsky.app/profile/j0e.me/post/3mytaqmvurc2x)</sub>
 > Negotiation with myself that another software project won't cost much time, money, and effort is a consistent battle.
 
-**🎧 [On repeat](https://www.last.fm/user/josephdburdick):** [Something About That Woman](https://www.last.fm/music/Lakeside/_/Something+About+That+Woman) by Lakeside · this week: [Miracle Tones](https://www.last.fm/music/Miracle+Tones), [FaltyDL](https://www.last.fm/music/FaltyDL), [Nujabes](https://www.last.fm/music/Nujabes)
+**🎧 [On repeat](https://www.last.fm/user/josephdburdick):** [Raptor](https://www.last.fm/music/DJ+Trace/_/Raptor) by DJ Trace · this week: [Current Value](https://www.last.fm/music/Current+Value), [omneum](https://www.last.fm/music/omneum), [Ulrich Schnauss](https://www.last.fm/music/Ulrich+Schnauss)
 
 <sub>Updated weekly by a GitHub Actions automation.</sub>
 <!-- LATELY:END -->
