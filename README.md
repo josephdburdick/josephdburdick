@@ -17,21 +17,21 @@ My multi-decade experience covers a range of sectors including retail, healthcar
 * 👀  View my personal site, [j0e.me](https://j0e.me)
 
 <!-- LATELY:START -->
-### 🛠️ Lately <sub>week of Nov 9</sub>
+### 🛠️ Lately <sub>week of Nov 17</sub>
 
-- 🎱 **[Cue Quest](https://cue.quest)**: a map-first Matches tab with an Everyone/You switch, venue maps on history and Liked, and new passport milestones
-- 👀 **[j0e.me](https://j0e.me)**: shipped screenshots now open in a lightbox carousel, with a polished mobile layout
-- 📦 **[Open-source React packages](https://www.npmjs.com/org/present-day)**: carousels now start on the slide you pick without a stray scroll event
-- 🗺️ **[pooltabl.es](https://pooltabl.es)**: a new Corner Pocket icon
+- 🎱 **[Cue Quest](https://cue.quest)**: cleaner sign-in and sign-up, report a player from their profile, and area pickers on the Liked and Recent maps
+- 👷‍♂️ **[Present Day](https://present.day)**: a new log with an RSS feed, plus a multi-step contact form and rotating hero headlines
+- 👀 **[j0e.me](https://j0e.me)**: redesigned homepage around the whole-product story, plus a Bluesky microblog timeline at /posts
+- ⏱️ **[Cue Quest Shot Clock](https://shotclock.cue.quest)**: App Store and Google Play badges now on the about, support and demo pages
 
 <p><img src="assets/activity.svg" alt="Merged pull requests per week across my projects, last 12 weeks" /><br /><sub>Merged pull requests per week, last 12 weeks</sub></p>
 
-**📦 On npm:** [`reveal-row`](https://www.npmjs.com/package/@present-day/reveal-row) 0.4.0 · 73/wk &nbsp;·&nbsp; [`drawer`](https://www.npmjs.com/package/@present-day/drawer) 2.4.0 · 60/wk &nbsp;·&nbsp; [`buzz`](https://www.npmjs.com/package/@present-day/buzz) 0.1.1 · 55/wk &nbsp;·&nbsp; [`scroll-area`](https://www.npmjs.com/package/@present-day/scroll-area) 0.1.1 · 7/wk
+**📦 On npm:** [`reveal-row`](https://www.npmjs.com/package/@present-day/reveal-row) 0.4.0 · 75/wk &nbsp;·&nbsp; [`buzz`](https://www.npmjs.com/package/@present-day/buzz) 0.1.1 · 73/wk &nbsp;·&nbsp; [`drawer`](https://www.npmjs.com/package/@present-day/drawer) 2.4.0 · 72/wk &nbsp;·&nbsp; [`scroll-area`](https://www.npmjs.com/package/@present-day/scroll-area) 0.1.1 · 6/wk
 
-**🦋 Latest post** <sub>[Nov 10](https://bsky.app/profile/j0e.me/post/3mzw6xtxyts2v)</sub>
-> Released my first App store app. A shot clock for billiards!
+**🦋 Latest post** <sub>[Nov 18](https://bsky.app/profile/j0e.me/post/3n2lzpme6lc24)</sub>
+> As a boy I'd fold up notebook pages and each crease was a boundary of a device I would draw with screens and buttons I would use to find imaginary foes. Now I'm an app developer.
 
-**🎧 [On repeat](https://www.last.fm/user/josephdburdick):** [Turning - Mixed](https://www.last.fm/music/Djrum/_/Turning+-+Mixed) by Djrum · this week: [Current Value](https://www.last.fm/music/Current+Value), [The Field](https://www.last.fm/music/The+Field), [Mean Teeth](https://www.last.fm/music/Mean+Teeth)
+**🎧 [On repeat](https://www.last.fm/user/josephdburdick):** [Home Before You Know It](https://www.last.fm/music/Jack+Tiraquon/_/Home+Before+You+Know+It) by Jack Tiraquon · this week: [Aphex Twin](https://www.last.fm/music/Aphex+Twin), [Galaxy 2 Galaxy](https://www.last.fm/music/Galaxy+2+Galaxy), [Day Aches](https://www.last.fm/music/Day+Aches)
 
 <sub>Updated weekly by a GitHub Actions automation.</sub>
 <!-- LATELY:END -->
