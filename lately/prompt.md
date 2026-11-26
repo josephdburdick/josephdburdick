@@ -13,9 +13,13 @@ everything it shipped into its one line. Each bullet:
 - Starts with `- `, then the product's `emoji`, then the product name in bold,
   linked to its `url`, then a colon and a lowercase phrase:
   `- 🎱 **[Cue Quest](https://cue.quest)**: place cards now open in place`
-- Says what changed for the people who use it, in plain words, under about
+- Says what the people who use it can now do, in plain words, under about
   110 characters after the link. "Now remembers your favorite tables", not
-  "Refactored the favorites store".
+  "Refactored the favorites store". Name the thing they touch (a screen, a
+  button, a platform, a city) rather than describing it: "report a player from
+  their profile" beats "improved moderation tools".
+- Uses a specific detail from the facts when one is there, such as a platform,
+  a place or a count. Specifics are believed; adjectives are skipped.
 - Combines all of that product's merged PRs into one line, picking the two
   or three changes users would notice most. Never list PR titles.
 
@@ -29,8 +33,9 @@ Joe was heads-down on Cue Quest this week.
 
 First person is not needed; write like a changelog headline from a friendly
 indie maker. American English. No hype words (revolutionary, game-changing,
-supercharged, seamless), no exclamation marks, no emoji beyond the product's
-own.
+supercharged, seamless, powerful, cleaner, better, improved), no exclamation
+marks, no emoji beyond the product's own. If a word only says the change was
+good, replace it with what the change was.
 
 ## Hard rules: this README is public
 
