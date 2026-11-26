@@ -229,6 +229,7 @@ const facts = {
     }))
     .filter((p) => p.mergedThisWeek.length > 0),
   totalMergedThisWeek: thisWeek.length,
+  weeklyMerged: counts,
   packages: pkgs,
   bluesky: post,
   listening,

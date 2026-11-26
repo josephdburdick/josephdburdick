@@ -13,6 +13,7 @@ const good = [
 const facts = {
   weekOf: '2026-10-17T00:00:00.000Z',
   generatedAt: '2026-10-24T13:00:00.000Z',
+  weeklyMerged: [3, 0, 5, 1, 0, 2, 4, 0, 1, 2, 30, 1],
   packages: [
     { name: '@present-day/drawer', url: 'https://www.npmjs.com/package/@present-day/drawer', version: '2.4.0', weeklyDownloads: 1550 },
     { name: '@present-day/gone', url: 'https://www.npmjs.com/package/@present-day/gone', version: null, weeklyDownloads: null },
@@ -72,6 +73,14 @@ describe('denyListFromEnv', () => {
 
 describe('renderSection', () => {
   const section = renderSection(facts, good)
+
+  it('heads the section with the week and its merged count', () => {
+    expect(section).toContain('### 🛠️ Shipped the week of Oct 17 <sub>1 pull request merged</sub>')
+  })
+
+  it('captions the chart with the twelve-week total', () => {
+    expect(section).toContain('<sub>49 pull requests merged in the last 12 weeks, one bar per week</sub>')
+  })
 
   it('wraps everything in the markers', () => {
     expect(section.startsWith('<!-- LATELY:START -->')).toBe(true)
