@@ -18,6 +18,8 @@ const END = '<!-- LATELY:END -->'
 type Facts = {
   weekOf: string
   generatedAt: string
+  /** Merged pull requests per week, oldest first; the last entry is this week. */
+  weeklyMerged: number[]
   packages: {
     name: string
     url: string
@@ -110,14 +112,22 @@ function formatDate(iso: string): string {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' })
 }
 
+function count(n: number, noun: string): string {
+  return `${n.toLocaleString('en-US')} ${noun}${n === 1 ? '' : 's'}`
+}
+
 export function renderSection(facts: Facts, bullets: string): string {
+  const weeks = facts.weeklyMerged
+  const thisWeek = weeks.at(-1) ?? 0
+  const total = weeks.reduce((sum, n) => sum + n, 0)
+  const caption = `${count(total, 'pull request')} merged in the last ${weeks.length} weeks, one bar per week`
   const parts: string[] = [
     START,
-    `### 🛠️ Lately <sub>week of ${formatDate(facts.weekOf)}</sub>`,
+    `### 🛠️ Shipped the week of ${formatDate(facts.weekOf)} <sub>${count(thisWeek, 'pull request')} merged</sub>`,
     '',
     bullets.trim(),
     '',
-    '<p><img src="assets/activity.svg" alt="Merged pull requests per week across my projects, last 12 weeks" /><br /><sub>Merged pull requests per week, last 12 weeks</sub></p>',
+    `<p><img src="assets/activity.svg" alt="${caption}" /><br /><sub>${caption}</sub></p>`,
   ]
 
   const pkgs = facts.packages
@@ -162,7 +172,7 @@ export function renderSection(facts: Facts, bullets: string): string {
 
   parts.push(
     '',
-    '<sub>Updated weekly by a GitHub Actions automation.</sub>',
+    "<sub>Drafted every Monday from the week's merged pull requests. I read it before it goes live.</sub>",
     END,
   )
   return parts.join('\n')
